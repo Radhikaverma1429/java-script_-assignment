@@ -49,13 +49,7 @@
 // Take a 3 digit number and print the reverse of that number. Ex - 235 = 532
 
 
-function reverse(num){
-    let reverse = reverse 
-};
 
-
-let result = reverse(235)
-console.log(result);
 // Take a number and print out the first digit of the number. Ex - 145 = 1, 789 = 7
 
 
@@ -82,9 +76,26 @@ console.log(result);
 
 
 // function averageSalary(salary){
-
+//     let sum=0
+//     for(let i=0; i<salary.length; i++){
+//         sum+=salary[i]
+//     }
+//     let average=sum/salary.length
+//     return average
 // }
+// let result = averageSalary([1000, 1000, 1000, 1000, 1000])
+// console.log(result);
 
 
 // Take two numbers and swap them. Ex - a = 10, b=5; =&gt; a=5, b=10;
+
+function swap(a, b) {
+    let temp = a+b;
+    a=a-b 
+    b=temp-b
+    return [a,b]
+}
+let result = swap(10,5)
+console.log(result);
+
 
